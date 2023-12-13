@@ -7,7 +7,11 @@ import SignUpBox from '../Components/Common/SignUpBox';
 import LoginBox from '../Components/Common/LoginBox';
 
 const Login=()=> {
+<<<<<<< HEAD
   const [boxName,setBoxName]=useState('login')
+=======
+  const [boxName,setBoxName]=useState('signup')
+>>>>>>> 5714c7c7a5537d8b33b1566ae30e76c7ade6f72f
 
  /* const handleLogin=()=>{
     setBoxName('login')

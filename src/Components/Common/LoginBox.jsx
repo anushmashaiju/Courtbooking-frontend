@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react'
 import {MDBBtn,MDBCol,MDBCard,MDBCardBody, MDBInput, MDBCheckbox}from 'mdb-react-ui-kit';
 
@@ -66,6 +67,26 @@ function parseJwt (token) {
 const updateUserRole=()=>{
  dispatch(setUserRole(123))
 }
+=======
+import React from 'react'
+import {
+ 
+    MDBBtn,
+    MDBCol,
+    MDBCard,
+    MDBCardBody,
+    MDBInput,
+    MDBCheckbox,
+   
+   
+  }
+  from 'mdb-react-ui-kit';
+function LoginBox({setBoxName}) {
+  const handleSignUp=()=>{
+    setBoxName('signup')
+ 
+  }
+>>>>>>> 5714c7c7a5537d8b33b1566ae30e76c7ade6f72f
 
   return (
 <MDBCol md='6' className='position-relative'>
@@ -75,6 +96,7 @@ const updateUserRole=()=>{
 
     <MDBCard className='my-5 bg-glass'>
       <MDBCardBody className='p-5'>
+<<<<<<< HEAD
         <MDBInput wrapperClass='mb-4' label='Email' id='form3' type='email' value={email} onChange={(e)=>setEmail(e.target.value)}/>
         <MDBInput wrapperClass='mb-4' label='Password' id='form4' type='password'value={password} onChange={(e)=>setPassword(e.target.value)}/>
 
@@ -83,6 +105,19 @@ const updateUserRole=()=>{
         </div>
 
         <MDBBtn className='w-100 mb-4' size='md'onClick={handleLogin}>login</MDBBtn>
+=======
+
+      
+
+        <MDBInput wrapperClass='mb-4' label='Email' id='form3' type='email'/>
+        <MDBInput wrapperClass='mb-4' label='Password' id='form4' type='password'/>
+
+        <div className='d-flex justify-content-center mb-4'>
+          <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember password' />
+        </div>
+
+        <MDBBtn className='w-100 mb-4' size='md'>login</MDBBtn>
+>>>>>>> 5714c7c7a5537d8b33b1566ae30e76c7ade6f72f
 
         <div className="text-center">
 
@@ -93,8 +128,11 @@ const updateUserRole=()=>{
 
       </MDBCardBody>
     </MDBCard>
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 5714c7c7a5537d8b33b1566ae30e76c7ade6f72f
     </MDBCol> 
   )   
 
